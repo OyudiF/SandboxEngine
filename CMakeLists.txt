@@ -16,6 +16,8 @@ add_executable(SandboxEngine main.cpp
         include/State.h
         include/StateMachine.h
         src/StateMachine.cpp
+        include/MainMenuState.h
+        src/MainMenuState.cpp
 )
 
 target_include_directories(SandboxEngine PRIVATE include)
